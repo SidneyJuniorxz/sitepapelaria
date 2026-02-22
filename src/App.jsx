@@ -58,7 +58,7 @@ const App = () => {
             <header className="sticky top-0 bg-white/80 backdrop-blur-md border-b border-pink-baby/30 z-50">
                 <div className="container mx-auto px-4 py-4 flex justify-between items-center">
                     <div className="flex items-center gap-3">
-                        <img src="/images/logo.jpeg" alt="Papelê Encantado" className="h-12 w-12 rounded-full border-2 border-pink-main shadow-sm object-cover" />
+                        <img src={`${import.meta.env.BASE_URL}images/logo.jpeg`} alt="Papelê Encantado" className="h-12 w-12 rounded-full border-2 border-pink-main shadow-sm object-cover" />
                         <span className="text-2xl font-rounded font-extrabold text-pink-main tracking-tight">Papelê Encantado</span>
                     </div>
 
@@ -248,7 +248,7 @@ const App = () => {
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
                     <div>
                         <div className="flex items-center gap-3 mb-6">
-                            <img src="/images/logo.jpeg" alt="Logo" className="w-10 h-10 rounded-full grayscale opacity-50" />
+                            <img src={`${import.meta.env.BASE_URL}images/logo.jpeg`} alt="Logo" className="w-10 h-10 rounded-full grayscale opacity-50" />
                             <span className="text-xl font-rounded font-bold text-white">Papelê Encantado</span>
                         </div>
                         <p className="text-sm leading-relaxed">
